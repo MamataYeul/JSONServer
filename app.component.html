@@ -1,0 +1,122 @@
+<!-- <h1>Table Using JSON SERVER API : JsonApiTable</h1>
+<hr>
+<table id="users">
+  <tr>
+    <th *ngFor="let col of columns">
+      {{col}}
+    </th>
+  </tr>
+  <tr *ngFor="let user of users">
+    <td *ngFor="let col of index">
+      {{users[col]}} 
+    </td>
+  </tr> 
+</table> -->
+
+  <!-- <app-mychart></app-mychart> -->
+  <!-- <app-best-sellers></app-best-sellers> -->
+  <!-- <app-real-estate></app-real-estate> -->
+  <!-- <app-jsontable></app-jsontable> -->
+
+  <!-- <div class="container">  
+    <h1> Display Data from Json File in Angular 9 </h1>  
+    <table class="table table-striped dark">  
+      <thead class="table-dark">  
+          <tr>  
+            <th>ID</th>  
+            <th>Name</th>  
+            <th>Email</th>  
+            <th>Gender</th>  
+          </tr>  
+      </thead>  
+      <tbody class="table-info">  
+        <tr *ngFor="let student of students">  
+          <td>{{ student.id }}</td>  
+          <td>{{ student.name }}</td>  
+          <td>{{ student.email }}</td>  
+          <td>{{ student.gender }}</td>  
+        </tr>  
+      </tbody>  
+    </table>  
+  </div> -->
+
+  <hr>
+
+  <!-- <div class="container mt-5">
+  
+    <h2>Angular Display Data from Json File Example</h2>
+    
+    <table class="table table-dark table-striped">
+      <thead>
+          <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Username</th>
+            <th>Email</th>
+          </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let user of Users">
+          <td>{{ user.id }}</td>
+          <td>{{ user.name }}</td>
+          <td>{{ user.username }}</td>
+          <td>{{ user.email }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <hr> -->
+
+<!-- <ul *ngFor="let user of Users">
+  <li>{{Users.Id}}</li>
+</ul> -->
+
+  <!-- <h2>Collect API Data</h2>
+
+  <table class="table table-dark">
+    <thead>
+      <tr>
+        <th>Id</th>
+        <th>EmployeeName</th>
+        <th>StarTimeUtc</th>
+        <th>EndTimeUtc</th>
+        <th>EntryNotes</th>
+        <th>DeletedOn</th>
+      </tr>
+    </thead>
+    <tbody *ngFor="let user of newdata">
+      <td>{{newdata.Id}}</td>
+      <td>{{newdata.EmployeeName}}</td>
+      <td>{{newdata.StarTimeUtc}}</td>
+      <td>{{newdata.EndTimeUtc}}</td>
+      <td>{{newdata.EntryNotes}}</td>
+      <td>{{newdata.DeletedOn}}</td>
+    </tbody> 
+  </table>-->
+
+  <div class="container mt-5">
+  <h1> Visualize JSON data via HTML table using Angular 15</h1>
+  <table class="table table-striped dark">  
+    <thead class="table-dark"> 
+    <tr>
+      <th>Id</th>
+      <th>EmployeeName</th>
+      <th>StarTimeUtc</th>
+      <th>EndTimeUtc</th>
+      <th>EntryNotes</th>
+      <th>DeletedOn</th>
+    </tr>
+  </thead>
+  <tbody *ngFor="let post of posts" class="table-info">
+    <td>{{post.Id}}</td>
+      <td>{{post.EmployeeName}}</td>
+      <td>{{post.StarTimeUtc}}</td>
+      <td>{{post.EndTimeUtc}}</td>
+      <td>{{post.EntryNotes}}</td>
+      <td>{{post.DeletedOn}}</td>
+  </tbody>
+</table>
+</div>
+<hr>
+<app-pie-chart></app-pie-chart>
+
